@@ -7,9 +7,9 @@ const CountryList = (props) => {
       <button onClick={() => props.fetchNewData("us")}>USA</button>
       <button onClick={() => props.fetchNewData("cn")}>China</button>
       <button onClick={() => props.fetchNewData("rs")}>Russia</button>
-      <button onClick={() => props.fetchNewData("pak")}>Pakistan</button>
-      <button onClick={() => props.fetchNewData("as")}>Australia</button>
-      <button onClick={() => props.fetchNewData("ne")}>NewZealand</button>
+      <button onClick={() => props.fetchNewData("ar")}>Argentina</button>
+      <button onClick={() => props.fetchNewData("au")}>Australia</button>
+      <button onClick={() => props.fetchNewData("nz")}>New Zealand</button>
     </div>
   );
 };

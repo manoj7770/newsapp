@@ -45,6 +45,7 @@ class NewsApp extends React.Component {
 
   render() {
     return (
+      
       <div className="container d-flex justify-content-between">
         <CountryList fetchNewData={this.fetchNewData} />
         <NewsList news={this.state.news} />
